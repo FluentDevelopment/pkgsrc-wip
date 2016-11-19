@@ -1,0 +1,30 @@
+@comment $NetBSD$
+${GEM_HOME}/cache/${GEM_NAME}.gem
+${GEM_LIBDIR}/.gitignore
+${GEM_LIBDIR}/.rspec
+${GEM_LIBDIR}/.rubocop.yml
+${GEM_LIBDIR}/.travis.yml
+${GEM_LIBDIR}/.yardopts
+${GEM_LIBDIR}/Gemfile
+${GEM_LIBDIR}/Gemfile.rack-1.3.x
+${GEM_LIBDIR}/Gemfile.rack-master
+${GEM_LIBDIR}/LICENSE.md
+${GEM_LIBDIR}/README.md
+${GEM_LIBDIR}/Rakefile
+${GEM_LIBDIR}/lib/omniauth.rb
+${GEM_LIBDIR}/lib/omniauth/auth_hash.rb
+${GEM_LIBDIR}/lib/omniauth/builder.rb
+${GEM_LIBDIR}/lib/omniauth/failure_endpoint.rb
+${GEM_LIBDIR}/lib/omniauth/form.css
+${GEM_LIBDIR}/lib/omniauth/form.rb
+${GEM_LIBDIR}/lib/omniauth/strategies/developer.rb
+${GEM_LIBDIR}/lib/omniauth/strategy.rb
+${GEM_LIBDIR}/lib/omniauth/test.rb
+${GEM_LIBDIR}/lib/omniauth/test/phony_session.rb
+${GEM_LIBDIR}/lib/omniauth/test/strategy_macros.rb
+${GEM_LIBDIR}/lib/omniauth/test/strategy_test_case.rb
+${GEM_LIBDIR}/lib/omniauth/version.rb
+${GEM_LIBDIR}/omniauth.gemspec
+${GEM_HOME}/specifications/${GEM_NAME}.gemspec
+@pkgdir lib/ruby/gems/2.3.0/extensions
+@pkgdir lib/ruby/gems/2.3.0/build_info
