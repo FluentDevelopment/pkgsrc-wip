@@ -1,7 +1,7 @@
 # $NetBSD: options.mk,v 1.9 2013/02/06 21:40:33 jperkin Exp $
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.openssl
-PKG_SUPPORTED_OPTIONS=	idea md2 mdc2 rc5 zlib threads
+PKG_SUPPORTED_OPTIONS=	chacha20 idea md2 mdc2 rc5 zlib threads
 PKG_SUGGESTED_OPTIONS=	md2 threads
 
 .include "../../mk/bsd.options.mk"
@@ -44,4 +44,12 @@ CONFIGURE_ARGS+=	no-threads
 .if !empty(OPENSSL_LICENSE)
 # pkgsrc does not handle multiple licenses
 LICENSE=	openssl-patented-algorithms-nonlicense
+.endif
+
+.if !empty(PKG_OPTIONS:Mchacha20) || make(makesum)
+CHACHA20_PATCH=		openssl__chacha20_poly1305_draft_and_rfc_ossl102j.patch
+PATCHFILES+=		${CHACHA20_PATCH}
+SITES.${CHACHA20_PATCH}= https://raw.githubusercontent.com/cloudflare/sslconfig/master/patches/
+PATCH_DIST_STRIP.${CHACHA20_PATCH}= -p1
+PLIST.chacha20=		yes
 .endif
