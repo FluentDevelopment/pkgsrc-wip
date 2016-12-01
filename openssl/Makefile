@@ -140,7 +140,7 @@ CONFIGURE_ARGS+=	linux-elf
 CONFIGURE_ARGS+=	no-sse2
 .endif
 
-.include "../../security/openssl/options.mk"
+.include "../../wip/openssl/options.mk"
 
 CONFIGURE_ARGS+=	${CFLAGS} ${LDFLAGS}
 CONFIGURE_ENV+=		PERL=${PERL5:Q}
