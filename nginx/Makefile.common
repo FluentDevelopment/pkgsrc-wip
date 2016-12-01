@@ -51,7 +51,7 @@ CONFIGURE_ARGS+=	--http-fastcgi-temp-path=${NGINX_DATADIR}/fstcgi_temp
 
 PKG_SYSCONFSUBDIR=	nginx
 
-.include "../../www/nginx/options.mk"
+.include "../../wip/nginx/options.mk"
 
 EGDIR=			${PREFIX}/share/examples/nginx
 EGFILES+=		fastcgi.conf fastcgi_params koi-utf koi-win \
@@ -118,4 +118,4 @@ do-install:
 
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
-.include "../../www/nginx/Makefile.cflags"
+.include "../../wip/nginx/Makefile.cflags"
