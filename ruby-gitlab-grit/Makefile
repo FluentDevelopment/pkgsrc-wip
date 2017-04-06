@@ -8,7 +8,10 @@ HOMEPAGE=	https://gitlab.com/gitlab-org/gitlab-grit
 COMMENT=	A simple, Git-powered wiki with a sweet API and local frontend
 LICENSE=	mit
 
-DEPENDS+=	${RUBY_PKGPREFIX}-rspec>=3.4<4:../../devel/ruby-rspec
+DEPENDS+=	${RUBY_PKGPREFIX}-charlock_holmes>=0.6<1:../../wip/ruby-charlock_holmes
+DEPENDS+=	${RUBY_PKGPREFIX}-diff-lcs>=1.1<2:../../textproc/ruby-diff-lcs
+DEPENDS+=	${RUBY_PKGPREFIX}-mime-types2>=1.16<3:../../mail/ruby-mime-types2
+DEPENDS+=	${RUBY_PKGPREFIX}-posix-spawn>=0.3<1:../../devel/ruby-posix-spawn
 
 RUBY_RDOC_REQD=	3.0
 
