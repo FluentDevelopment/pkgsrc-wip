@@ -1,12 +1,13 @@
 @comment $NetBSD$
-bin/gollum
+bin/gollum23
 ${GEM_HOME}/cache/${GEM_NAME}.gem
+${GEM_LIBDIR}/CONTRIBUTING.md
 ${GEM_LIBDIR}/Gemfile
 ${GEM_LIBDIR}/HISTORY.md
 ${GEM_LIBDIR}/LICENSE
 ${GEM_LIBDIR}/README.md
 ${GEM_LIBDIR}/Rakefile
-${GEM_LIBDIR}/bin/gollum
+${GEM_LIBDIR}/bin/gollum23
 ${GEM_LIBDIR}/config.rb
 ${GEM_LIBDIR}/config.ru
 ${GEM_LIBDIR}/contrib/openrc/conf.d/gollum
@@ -34,6 +35,7 @@ ${GEM_LIBDIR}/lib/gollum/public/gollum/images/fileview/document.png
 ${GEM_LIBDIR}/lib/gollum/public/gollum/images/fileview/folder-horizontal.png
 ${GEM_LIBDIR}/lib/gollum/public/gollum/images/fileview/toggle-small-expand.png
 ${GEM_LIBDIR}/lib/gollum/public/gollum/images/fileview/toggle-small.png
+${GEM_LIBDIR}/lib/gollum/public/gollum/images/fileview/trashcan.png
 ${GEM_LIBDIR}/lib/gollum/public/gollum/images/icon-sprite.png
 ${GEM_LIBDIR}/lib/gollum/public/gollum/images/man_24.png
 ${GEM_LIBDIR}/lib/gollum/public/gollum/images/para.png
