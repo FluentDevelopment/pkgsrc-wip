@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	stringex-2.6.1
+DISTNAME=	stringex-2.7.1
 CATEGORIES=	textproc
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

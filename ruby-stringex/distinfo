@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (stringex-2.6.1.gem) = ed8461248a44c16c631509c8196750a150b6e7bb
-RMD160 (stringex-2.6.1.gem) = 9b6c2b02f54fd49b776509aa7d6d09c8e024a47f
-SHA512 (stringex-2.6.1.gem) = b2ca4de05a8a1e3ef9fa85324f2280a27de7ef04ac3eb0f76006e07d86e5fa0fc84acd4ee6d39f86416bc769cf4e2804421703533b8609a18228cdfeb769a841
-Size (stringex-2.6.1.gem) = 130048 bytes
+SHA1 (stringex-2.7.1.gem) = d462d32da69b6d65657d3e3ea436eab0128ea700
+RMD160 (stringex-2.7.1.gem) = c27790226a6e54a81243e8b1d0b7458ebe3a4bb8
+SHA512 (stringex-2.7.1.gem) = 2e53079ceaa33a7d040efcd3428601ffa0b4a1c2c231c8d068754ed4577ca610aeae46cde5d402566929cb5204a1999a287f10661a241197e6efbdadd4c928c4
+Size (stringex-2.7.1.gem) = 130048 bytes
