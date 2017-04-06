@@ -8,7 +8,7 @@ HOMEPAGE=	https://github.com/gollum/grit_adapter
 COMMENT=	Adapter for gollum to use Grit at the backend
 LICENSE=	mit
 
-DEPENDS+=	${RUBY_PKGPREFIX}-gitlab-grit>=2.8.1<2.9:../../wip/ruby-gitlab-grit
+DEPENDS+=	${RUBY_PKGPREFIX}-gitlab-grit>=2.8.1<3:../../wip/ruby-gitlab-grit
 
 RUBY_RDOC_REQD=	3.0
 
