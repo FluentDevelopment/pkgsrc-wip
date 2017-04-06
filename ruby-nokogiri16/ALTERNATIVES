@@ -1,0 +1,1 @@
+bin/nokogiri @PREFIX@/bin/nokogiri16@RUBY_SUFFIX@
