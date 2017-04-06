@@ -16,6 +16,7 @@ ${GEM_LIBDIR}/lib/gollum-lib/file.rb
 ${GEM_LIBDIR}/lib/gollum-lib/file_view.rb
 ${GEM_LIBDIR}/lib/gollum-lib/filter.rb
 ${GEM_LIBDIR}/lib/gollum-lib/filter/code.rb
+${GEM_LIBDIR}/lib/gollum-lib/filter/emoji.rb
 ${GEM_LIBDIR}/lib/gollum-lib/filter/macro.rb
 ${GEM_LIBDIR}/lib/gollum-lib/filter/metadata.rb
 ${GEM_LIBDIR}/lib/gollum-lib/filter/plain_text.rb
