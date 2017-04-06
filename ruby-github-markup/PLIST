@@ -13,6 +13,7 @@ ${GEM_LIBDIR}/Rakefile
 ${GEM_LIBDIR}/bin/github-markup
 ${GEM_LIBDIR}/github-markup.gemspec
 ${GEM_LIBDIR}/lib/github-markup.rb
+${GEM_LIBDIR}/lib/github/commands/pod2html
 ${GEM_LIBDIR}/lib/github/commands/rest2html
 ${GEM_LIBDIR}/lib/github/markup.rb
 ${GEM_LIBDIR}/lib/github/markup/command_implementation.rb
@@ -29,6 +30,8 @@ ${GEM_LIBDIR}/test/markups/README.asciidoc
 ${GEM_LIBDIR}/test/markups/README.asciidoc.html
 ${GEM_LIBDIR}/test/markups/README.creole
 ${GEM_LIBDIR}/test/markups/README.creole.html
+${GEM_LIBDIR}/test/markups/README.directives.rst
+${GEM_LIBDIR}/test/markups/README.directives.rst.html
 ${GEM_LIBDIR}/test/markups/README.litcoffee
 ${GEM_LIBDIR}/test/markups/README.litcoffee.html
 ${GEM_LIBDIR}/test/markups/README.markdown

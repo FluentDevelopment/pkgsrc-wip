@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	github-markup-1.4.0
+DISTNAME=	github-markup-1.6.0
 CATEGORIES=	www
 
 MAINTAINER=	timshel@fluentdevelopment.com.au
