@@ -1,0 +1,3 @@
+bin/mustache @PREFIX@/bin/mustache099@RUBY_SUFFIX@
+man/man1/mustache.1 @PREFIX@/man/man1/mustache099@RUBY_SUFFIX@.1
+man/man5/mustache.5 @PREFIX@/man/man5/mustache099@RUBY_SUFFIX@.5
